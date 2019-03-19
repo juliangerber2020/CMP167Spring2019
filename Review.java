@@ -1,3 +1,9 @@
+/* 
+Author: Julian Gerber
+Created: 3/19/19
+Description: This program prints your title based on the number of people.
+*/
+
 import java.util.Scanner;
 
 public class Review {
