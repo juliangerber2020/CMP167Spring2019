@@ -8,6 +8,7 @@ public class Human {
 	double hunger;
 	int food;
 	Vehicle[] vehicles;
+	
 	public Human() {
 		this.age = 0;
 		this.name = "";
@@ -15,7 +16,20 @@ public class Human {
 		this.hasVehicle = false;
 		this.hunger = 5.0;
 		this.food = 5;
+		this.vehicles = new Vehicle[100];
 	}
+	
+	public int numVehicles() {
+		int total = 0;
+		for (int i=0; i<vehicles.length; ++i) {
+			if (vehicles[i] != null) {
+				++total; }
+			else {
+				break; }
+			
+			}
+		return total;
+		}
 	
 	public void grow() {
 		++age;

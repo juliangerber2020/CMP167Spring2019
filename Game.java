@@ -7,7 +7,7 @@ public class Game {
 		System.out.println("Hunger: " + person1.hunger);
 		System.out.println("Food: " + person1.food);
 		
-		
+/*		
 		System.out.println("Eating Command");
 		person1.eat();
 		System.out.println("Eating Command");
@@ -35,7 +35,7 @@ public class Game {
 		person1.eat();
 		System.out.println("Working command");
 		person1.work();
-		
+*/		
 	}
 
 }
